@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+/* styles for counter component */
+
+.counter-container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.counter-ul {
+  width: max-content;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.counter-ul > li {
+  min-width: 100px;
+  flex-basis: 30%;
+  padding: 10px 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.counter-minus {
+  background-color: darkred;
+  color: white;
+}
+
+.counter-minus:hover {
+  background-color: rgb(83, 2, 2)
+}
+
+.counter-plus {
+  background-color: darkblue;
+  color: white;
+}
+
+.counter-plus:hover {
+  background-color: rgb(0, 0, 94)
+}
+
+.counter-value {
+  cursor: auto !important;
+  background-color: lightslategrey;
+  color: rgb(18, 32, 32);
+}
